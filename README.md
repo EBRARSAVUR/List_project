@@ -1,6 +1,7 @@
 # List_project
 Work on flattening the list and reprinting it starting from the bottom.
 
+
 1- Bir listeyi düzleştiren (flatten) fonksiyon tipi. Elemanları birden çok ışıklı listelerden ([[3],2] gibi) oluşabileceği gibi, non-skaler göstergelerden de görülebilir. Örnek olarak:
 
 giriş: [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
@@ -21,3 +22,16 @@ def flatten(l):
     return flat_list
 
 print(flatten(list1))
+
+
+
+2- Verilen listenin içindeki bölümleri döndüren bir yazın işlevi. Eğer dinlemenin içindeki elemanlar da listeyi içeriyorsa onların elemanlarını da döndürün. Örnek olarak:
+
+giriş: [[1, 2], [3, 4], [5, 6, 7]]
+
+çıktı: [[[7, 6, 5], [4, 3], [2, 1]]
+
+
+
+
+
